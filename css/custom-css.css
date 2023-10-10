@@ -49,3 +49,9 @@
     color:white;
 }
 
+.row-background {
+    width: 540px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background: #C1C6DF;
+}
