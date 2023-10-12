@@ -1,57 +1,155 @@
 
+/* Header */
 
-.header-text {
-    color: var(--colour-main-blue-900, #091133);
-    font-family: Roboto;
-    font-weight: 600;
-    font-size:66px;
-    padding-bottom: 187px;
+
+header .icon-btn {
+    width: 80px;
+    height: 80px;
+    padding: 28px;
+    border-radius: 30px;
+    background: var(--osler-gray-white, #FFF);
+
+    /* Card Shadow Gray80 5% */
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
 }
 
-.header-addition {
-    font-size: 36px;
+header .logo-btn {
+    width: 80px;
+    height: 80px;
+    padding: 28px;
+    border-radius: 30px;
+    background: var(--osler-gray-white, #FFF);
+    border-radius: 30px;
+    background: var(--healing-green-50, #84CC16);
+    box-shadow: 0px 16px 32px 0px rgba(132, 204, 22, 0.25);
 }
 
-.header-addition2 {
-    padding-top:80px;
-    color: #000;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: italic;
+.background-header {
+    min-height:800px;
+    background-image: url("/img/background.png");
+    background-size: 150%;
+    background-position: left;
+    
 }
 
 
-.main {
-    padding-top:160px;
+
+/* HERO section */
+
+.hero-first-block {
+    text-align: left;
+    color: var(--osler-gray-80, #2F3C33);
+    width: 458px;
 }
 
-.good-links {
-    color: var(--colour-main-blue-400, #6F7CB2);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Roboto;
-    font-size: 16px;
+
+.hero-bg {
+    background-image: url("/img/hero-img2.png");
+    background-repeat: no-repeat;
+    min-height:800px;
+}
+
+.hero-h-text {
+    
+    /* Heading xl/ExtraBold */
+    font-family: Nunito;
+    font-size: 60px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 26px; /* 162.5% */
-    text-decoration-line: underline; 
+    font-weight: 800;
+    line-height: 68px; /* 113.333% */
+    letter-spacing: -1.8px;
 }
 
-.more-button {
-    text-align: center;
+.green-dot {
+    color: var(--healing-green-50, #84CC16); 
+}
+
+.hero-p-text {
+    padding-top:30px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: -0.24px;
+}
+
+.hero-icon-style {
+    width: 24px;
+}
+
+
+.hero-icon-text {
+    color: var(--osler-gray-60, #647067);
+    /* Label/md */
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase; 
+}
+
+.hero-icons-block {
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.download-btn {
+    text-decoration: none;
+    color: #FFF;
+    height: 64px;
+    padding: 16px 32px;
     justify-content: center;
-    width: 236px;
-    padding-top:5px;
-    padding-bottom:5px;
-    background: #C4C4C4; 
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: italic;
-    color:white;
+    align-items: center;
+   
+    /* Text lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.36px; 
+    border-radius: 24px;
+    background: var(--osler-gray-80, #2F3C33);
 }
 
-.row-background {
-    width: 540px;
-    padding-top:10px;
-    padding-bottom:10px;
-    background: #C1C6DF;
+/* Scrool BTN */
+
+.scroll-btn {
+    padding:12px;
+    text-decoration: none;
+    border-radius: 12px;
+    background: var(--osler-gray-10, #F5F5F5);
+}
+
+.scroll-btn-text {
+    text-decoration: none;
+    color: var(--osler-gray-80, #2F3C33);
+    /* Label/sm */
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase; 
+}
+
+
+
+
+/* Phone widgets */
+
+
+.doctor-widget {
+    border-radius: 32px;
+    background: var(--osler-gray-white, #FFF);
+    /* Card Shadow Gray80 5% */
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+}
+
+.doctor-img {
+    border-radius: 25px;
 }

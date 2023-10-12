@@ -2,54 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bootstrap Page (Dovydas Petraitis)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@300;400;600&family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@300;400;600&family=Nunito:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom-css.css">
   </head>
   <body>
-    <div class="container-fluid">
-        <div class="container main">
-            <div class="row">
-                <div class="col-s-12 col-xl-6 p-3 ">
-                    <h1 class="header-text">RESOURCES</h1>
-                    <h3 class="header-addition mb-3">FIND A DOCTOR NEAR YOU:</h3>
-                <div class="container p-0">
-                    <div class="row row-background">
-                        <div class="col">
-                             <input placeholder="Zip Code" type="text" class="form-control">                      
+    <div class="container-fluid text-center">
+        <div class="background-header">
+            <header>
+                <nav class="row p-5">
+                    <div class="col">
+                        <a class="icon-btn" href="#"><img src="img/send-icon.png" alt="fab"></a>
+                    </div>
+                    <div class="col">
+                        <a class="logo-btn"  href="#"><img src="img/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="col">
+                        <a class="icon-btn"  href="#"><img src="img/menu.png" alt="logo"></a>
+                    </div>
+                </nav>
+            </header>
+            <section class="container text-center">
+                <div class="row align-items-center m-0 p-0">
+                    <div class="col-xl-6 col-sm-12 text-center">
+                        <div class="hero-first-block">
+                        <h1 class="hero-h-text">Where AI Meets<br> Telehealth & <br>Telemedicine<span class="green-dot">.</span></h1>
+                        <p class="hero-p-text">We're pioneering the future of healthcare with cutting-edge telehealth and telemedicine solution</p>
+                        <div class="row hero-icons-block">
+                        <div class="col-xl-6 col-sm-6">
+                            <div class="row">
+                                <div class="col-xl-12 col-sm-12 text-center">
+                                    <div class="row">
+                                    <div class="col-2"><img src="img/user-icon.png" alt="user"></div>
+                                    <div class="col-10 pt-1"><p class="hero-icon-text">TRUSTED BY 2.5M+</p></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Service type</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>                        </div>
-                        <div class="col">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Insurance provider</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>                          </div>
+                        <div class="col-xl-6 col-sm-6">
+                            <div class="row">
+                                <div class="col-xl-12 col-sm-12 text-center">
+                                    <div class="row">
+                                    <div class="col-2"><img src="img/processor-icon.svg" alt="user"></div>
+                                    <div class="col-10 pt-1"><p class="hero-icon-text">AI/ML TECHNOLOGY</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="download-btn" href="#">Download The App <img class="p-2" src="/img/download-icon.png" alt="download-icon"></a>
+                        </div>
                     </div>
-                </div>
-                    <h3 class="header-addition2 mb-3">Health Awareness</h3>
-                    <ul>
-                        <li class="good-links">COVID-19 affect on the black community: https://www.pfizer.com/news/articles/health_disparities_among_african_americans</li>
-                    </ul>
-                    <div class="mt-4">
-                    <a href="#" class="btn more-button text-center">More info</a>
-                    </div>
-                </div>
-                <div class="col-s-12 col-xl-6 ">
-                    <img class="img-fluid" src="img/hero.png" alt="hero">
-                </div>
+                    
+                    <div class="col-xl-6 col-sm-12 hero-bg">
+                        <div class="row">
+                            <div class="col-8 doctor-widget p-3">
+                                <div class="row">
+                                <div class="col-3">
+                                    <img class="doctor-img" src="/img/doctor.png" alt="Doctor">
+                                </div>
+                                <div class="col-6 p-3">
+                                <h5>Dr. William Brown <img class="doctor-img" src="/img/approve.svg" alt="Aprove"> </h5>
+                                </div>
+                                <div class="col-1 p-4">
+                                    <div><img class="doctor-img" src="/img/right-btn.png" alt="Aprove"></div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                 
+                    </div>
+                 
+                </div>       
+            </section>
+
+            <div class="container-fluid">
+                <div class="col-1 text-left scroll-btn">
+                    <a class="scroll-btn-text" href="#"><img src="img/scroll-btn.svg" alt="Scrool-btn">Scrool Down</a>   
+                </div>
             </div>
         </div>
     </div>
