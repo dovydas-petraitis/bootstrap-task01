@@ -26,6 +26,7 @@ header .logo-btn {
 
 .background-header {
     min-height:800px;
+    background-color: #c6c6c6;
     background-image: url("/img/background.png");
     background-size: 150%;
     background-position: left;
@@ -44,7 +45,9 @@ header .logo-btn {
 
 
 .hero-bg {
-    background-image: url("/img/hero-img2.png");
+    background-color: #000000;
+    background-image: url("img/hero-img.png");
+    background-position: center;
     background-repeat: no-repeat;
     min-height:800px;
 }
@@ -144,6 +147,10 @@ header .logo-btn {
 
 
 .doctor-widget {
+    position: absolute;
+    margin-top:600px;
+    margin-left:-80px;
+    width: 400px;
     border-radius: 32px;
     background: var(--osler-gray-white, #FFF);
     /* Card Shadow Gray80 5% */
@@ -153,3 +160,100 @@ header .logo-btn {
 .doctor-img {
     border-radius: 25px;
 }
+
+.doctor-name {
+text-align: left;
+color: var(--osler-gray-80, #2F3C33);
+/* Text md/ExtraBold */
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: -0.32px;
+}
+
+.about-doc {
+    color: var(--osler-gray-60, #647067);
+/* Text xs/Bold */
+font-family: Nunito;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.12px;
+}
+
+.suggestion {
+    padding:16px;
+    position: absolute;
+    margin-top:200px;
+    margin-left:550px;
+    width: 180px;
+    border-radius: 32px;
+    background: var(--healing-green-50, #84CC16);
+    box-shadow: 0px 16px 32px 0px rgba(132, 204, 22, 0.25);
+}
+
+.suggestion-title {
+    color: var(--osler-gray-white, #FFF);
+    /* Text sm/Bold */
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
+
+.suggestion-bpm {
+    color:white;
+    font-family: Nunito;
+    font-size: 24px;
+}
+
+.bpm-bonus {
+    color: var(--healing-green-30, #BEF264);
+    /* Text sm/SemiBold */
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
+
+
+
+.nutrition {
+    padding:16px;
+    margin-top:500px;
+    margin-left:550px;
+    width: 180px;
+    border-radius: 32px;
+    background: white;
+    box-shadow: 0px 16px 32px 0px rgba(132, 204, 22, 0.25);
+}
+
+.nutrition-title {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Text sm/Bold */
+    font-family: Nunito;
+    font-size: 14px;
+}
+
+.nutrition-stats {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Text 2xl/ExtraBold */
+    font-family: Nunito;
+    font-size: 24px;
+}
+
+.nutrition-stats2 {
+    color: var(--osler-gray-60, #647067);
+    /* Text sm/SemiBold */
+    font-family: Nunito;
+    font-size: 14px;
+}
+
+
