@@ -1,6 +1,12 @@
+/* Base settings */
+a {
+    text-decoration: none;
+}
+
+
+
 
 /* Header */
-
 
 header .icon-btn {
     width: 80px;
@@ -26,13 +32,10 @@ header .logo-btn {
 
 .background-header {
     min-height:800px;
-    background-color: #c6c6c6;
     background-image: url("/img/background.png");
     background-size: 150%;
     background-position: left;
-    
 }
-
 
 
 /* HERO section */
@@ -45,11 +48,11 @@ header .logo-btn {
 
 
 .hero-bg {
-    background-color: #000000;
-    background-image: url("img/hero-img.png");
+    background-image: url("/img/hero-img2.png");
     background-position: center;
     background-repeat: no-repeat;
     min-height:800px;
+    margin-bottom: -60px;
 }
 
 .hero-h-text {
@@ -125,6 +128,7 @@ header .logo-btn {
     text-decoration: none;
     border-radius: 12px;
     background: var(--osler-gray-10, #F5F5F5);
+    margin:20px 0px;
 }
 
 .scroll-btn-text {
@@ -148,13 +152,14 @@ header .logo-btn {
 
 .doctor-widget {
     position: absolute;
-    margin-top:600px;
-    margin-left:-80px;
+    margin-top:500px;
+    margin-left:-150px;
     width: 400px;
     border-radius: 32px;
     background: var(--osler-gray-white, #FFF);
     /* Card Shadow Gray80 5% */
     box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+
 }
 
 .doctor-img {
@@ -187,8 +192,8 @@ letter-spacing: -0.12px;
 .suggestion {
     padding:16px;
     position: absolute;
-    margin-top:200px;
-    margin-left:550px;
+    margin-top:100px;
+    margin-left:400px;
     width: 180px;
     border-radius: 32px;
     background: var(--healing-green-50, #84CC16);
@@ -197,7 +202,6 @@ letter-spacing: -0.12px;
 
 .suggestion-title {
     color: var(--osler-gray-white, #FFF);
-    /* Text sm/Bold */
     font-family: Nunito;
     font-size: 14px;
     font-style: normal;
@@ -227,8 +231,8 @@ letter-spacing: -0.12px;
 
 .nutrition {
     padding:16px;
-    margin-top:500px;
-    margin-left:550px;
+    margin-top:400px;
+    margin-left:400px;
     width: 180px;
     border-radius: 32px;
     background: white;
@@ -237,23 +241,158 @@ letter-spacing: -0.12px;
 
 .nutrition-title {
     color: var(--osler-gray-80, #2F3C33);
-    /* Text sm/Bold */
     font-family: Nunito;
     font-size: 14px;
 }
 
 .nutrition-stats {
     color: var(--osler-gray-80, #2F3C33);
-    /* Text 2xl/ExtraBold */
     font-family: Nunito;
     font-size: 24px;
 }
 
 .nutrition-stats2 {
     color: var(--osler-gray-60, #647067);
-    /* Text sm/SemiBold */
     font-family: Nunito;
     font-size: 14px;
 }
 
 
+.gradient-background {
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 2%, #FFF 100%); 
+}
+
+
+/* About us section */
+
+.about-us-background {
+    border-radius: 180px;
+    background: var(--osler-gray-80, #2F3C33);
+}
+
+
+.about-us {
+    padding:128px 128px 0px 128px;
+    margin:0px 24px;
+}
+
+
+.our-mission-btn {
+    padding: 16px 24px;
+    border-radius: 18px;
+    background: var(--healing-green-50, #84CC16);
+    color: var(--osler-gray-white, #FFF);
+    text-align: center;
+    /* Text md/Bold */
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px; 
+}
+
+.our-mission-txt {
+    padding-top: 48px;
+    color: var(--osler-gray-20, #E3E4E3);
+    /* Paragraph/xl */
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.2px; 
+}
+
+.our-mission-headline {
+    color: var(--osler-gray-white, #FFF);
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+}
+
+.icons-carousel {
+    padding-top:64px;
+    padding-bottom: 128px;
+}
+
+
+/* Our statistics section */
+
+.our-stats-background {
+    margin-top:24px;
+    border-radius: 180px;
+    background: var(--healing-green-50, #84CC16);
+    padding: 128px 118px;
+}
+
+.stats-widget {
+    padding:48px;
+    margin:8px;
+    border-radius: 64px;
+    background: var(--osler-gray-white, #FFF);
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+}
+
+.stats-data {
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; /* 111.111% */
+    letter-spacing: -2.16px; 
+}
+
+.widget-highlight{
+    color: var(--healing-green-50, #84CC16);
+    /* Heading 2xl/ExtraBold */
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -2.16px;
+}
+
+.stats-additional-info {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Heading xs/SemiBold */
+    font-family: Nunito;
+    font-size: 24px; 
+}
+
+/* Our services section */
+
+
+.our-services-background {
+    margin-top:24px;
+    border-radius: 180px;
+    background: var(--osler-gray-10, #F5F5F5); 
+    padding: 128px 128px;
+}
+
+.our-services-h {
+    color: var(--osler-gray-80, #2F3C33); 
+}
+
+.our-services-total-btn {
+    color: var(--osler-gray-80, #2F3C33);
+    font-family: Nunito;
+    font-size:16px;
+    font-weight: 700; 
+    padding: 16px 24px; 
+    border-radius: 18px;
+    border: 1px solid var(--osler-gray-60, #647067);3
+}
+
+.our-services-widget {
+    padding:20px;
+    border-radius: 64px;
+    background: var(--osler-gray-white, #FFF);
+    /* Card Shadow Gray80 5% */
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+}
