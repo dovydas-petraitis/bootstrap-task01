@@ -3,6 +3,23 @@ a {
     text-decoration: none;
 }
 
+.main-cta {
+    
+    padding: 16px 32px;
+    border-radius: 24px;
+    background: var(--osler-gray-80, #2F3C33);
+    color: var(--osler-gray-white, #FFF);
+    /* Text lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+.main-cta-btn {
+    margin-top:48px;
+}
 
 
 
@@ -264,6 +281,41 @@ letter-spacing: -0.12px;
 }
 
 
+
+/* Phone addaptation */
+
+
+@media (max-width: 992px) {
+
+    .doctor-widget {
+        display:none;
+    }
+
+    .nutrition {
+        margin-left:10px;
+    }
+
+    .scroll-btn {
+        display:none;
+    }
+
+    .hero-bg {
+        background-image: url("/img/hero-img.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height:800px;
+        margin-bottom: -60px;
+    }
+
+    .suggestion {
+        margin-left: 300px;
+    }
+
+
+ }
+
+
+
 /* About us section */
 
 .about-us-background {
@@ -275,6 +327,13 @@ letter-spacing: -0.12px;
 .about-us {
     padding:128px 128px 0px 128px;
     margin:0px 24px;
+}
+
+@media (max-width: 992px) {
+    .about-us {
+        padding:120px 20px 20px 20px;
+    }
+    
 }
 
 
@@ -314,6 +373,30 @@ letter-spacing: -0.12px;
     line-height: 56px; /* 116.667% */
     letter-spacing: -1.44px;
 }
+
+.our-mission-headline-only-mobile {
+    padding-top:40px;
+    color: var(--osler-gray-white, #FFF);
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+}
+
+@media (min-width: 992px) { 
+    .our-mission-headline-only-mobile {
+        display:none;
+    }
+ }
+
+ @media (max-width: 992px) { 
+    .our-mission-headline {
+        display:none;
+    }
+ }
+
 
 .icons-carousel {
     padding-top:64px;
@@ -379,6 +462,26 @@ letter-spacing: -0.12px;
     color: var(--osler-gray-80, #2F3C33); 
 }
 
+.services-list-p {
+    color: var(--osler-gray-60, #647067);
+    /* Paragraph/xl */
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.2px;
+}
+
+.services-list-h {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Heading xs/ExtraBold */
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
 .our-services-total-btn {
     color: var(--osler-gray-80, #2F3C33);
     font-family: Nunito;
@@ -386,13 +489,290 @@ letter-spacing: -0.12px;
     font-weight: 700; 
     padding: 16px 24px; 
     border-radius: 18px;
-    border: 1px solid var(--osler-gray-60, #647067);3
+    border: 1px solid var(--osler-gray-60, #647067);
 }
 
 .our-services-widget {
-    padding:20px;
+    margin-top:10px;
+    padding:32px;
     border-radius: 64px;
     background: var(--osler-gray-white, #FFF);
     /* Card Shadow Gray80 5% */
     box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
 }
+
+.our-services-number {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Label/lg */
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    padding-left:20px;
+    margin:0px;
+}
+
+
+
+/* Core Features section */
+
+.core-feature-section{
+    padding: 128px 175px;
+}
+
+
+.core-main-title {
+    color: var(--osler-gray-80, #2F3C33);
+    text-align: center;
+    /* Heading xl/ExtraBold */
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; /* 113.333% */
+    letter-spacing: -1.8px;
+    padding-bottom: 96px;
+}
+
+.core-feature-h {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Heading lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+    padding-bottom: 10px;
+}
+
+.our-core-label {
+    margin-top:20px;
+    padding:32px;
+    border-radius: 64px;
+    background: var(--osler-gray-white, #FFF);
+    /* Card Shadow Gray80 5% */
+}
+
+.our-core-paragraph {
+    color: var(--osler-gray-60, #647067);
+    /* Paragraph/lg */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.18px;
+}
+
+.core-feature-stats-highlight{
+color: var(--remote-red-50, #F43F5E);
+/* Heading sm/ExtraBold */
+font-family: Nunito;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 38px;
+letter-spacing: -0.9px;
+}
+
+.core-feature-stats {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Heading sm/ExtraBold */
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 126.667% */
+    letter-spacing: -0.9px;
+}
+
+.core-feature-stats-additional {
+    color: var(--osler-gray-60, #647067);
+    /* Text lg/Bold */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+
+.ai-appointmens {
+    color: var(--osler-gray-60, #647067);
+    text-align: right;
+    /* Label/md */
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.core-list-text {
+    color: var(--osler-gray-70, #48524B);
+    /* Text lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+
+
+/* WHY CHOOSE US SECTION */
+
+.choose-section-btn {
+    padding: 16px 24px;
+    border-radius: 18px;
+    border: 1px solid var(--osler-gray-white, #FFF);
+    color: var(--osler-gray-white, #FFF);
+    text-align: center;
+
+    /* Text md/Bold */
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+
+}
+
+.choose-section-h {
+    color: var(--osler-gray-white, #FFF);
+    text-align: center;
+
+    /* Heading xl/ExtraBold */
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; /* 113.333% */
+    letter-spacing: -1.8px;
+}
+
+.why-we-block {
+    padding: 32px;
+    border-radius: 64px;
+    background: var(--osler-gray-white, #FFF);
+    /* Card Shadow Gray80 5% */
+    box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
+}
+
+.why-we-h {
+    padding-top:32px;
+    padding-bottom: 8px;
+    color: var(--osler-gray-90, #1E2721);
+    /* Heading xs/ExtraBold */
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.72px;
+}
+
+.why-we-p {
+    color: var(--osler-gray-60, #647067);
+    /* Paragraph/xl */
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.2px;
+}
+
+
+
+/*  Services Mobile adaptation PART 2  */
+@media (max-width: 992px) {
+
+    .mobile-center {
+        text-align: center;
+    }
+
+    .our-services-number {
+        align-items: left;
+        padding-bottom: 20px;
+    }
+    
+    .our-services-img {
+        padding-bottom: 20px;
+    }
+
+    .our-services-background {
+        padding-left:36px;
+        padding-right:36px;
+    }
+
+    .our-services-total-btn {
+        text-align: center;
+    }
+    .our-services-h {
+        text-align: center;
+    }
+    
+
+    .core-feature-section{
+        padding: 20px 10px;
+    }
+
+    .our-services-total-btn-mobile{
+        margin-top:50px;
+        text-align: center;
+    }
+
+    .core-feature-h{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .core-main-title{
+        padding-top:50px;
+        padding-bottom: 20px;
+    }
+
+    .our-core-paragraph {
+        text-align:center;
+    }
+
+    .our-core-stats-mobile {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .our-core-btn-mobile {
+        padding-top:25px;
+        text-align: center;
+    }
+
+    .our-stats-background {
+        margin-top:24px;
+        border-radius: 180px;
+        background: var(--healing-green-50, #84CC16);
+        padding: 128px 50px;
+    }
+
+
+    /* REVERSE COLUMN */
+    .reverse-col-mobile1 {
+        order:1;
+    }
+    .reverse-col-mobile2 {
+        order:2;
+    }
+    
+    /*  */
+
+    
+ }
