@@ -386,8 +386,13 @@ letter-spacing: -0.12px;
     letter-spacing: -1.44px;
 }
 
+/* ONLY MOBILE */
 @media (min-width: 992px) { 
     .our-mission-headline-only-mobile {
+        display:none;
+    }
+
+    .footer-social-icons-only-mobile {
         display:none;
     }
  }
@@ -396,6 +401,7 @@ letter-spacing: -0.12px;
     .our-mission-headline {
         display:none;
     }
+    
  }
 
 
@@ -800,7 +806,7 @@ letter-spacing: -0.9px;
 /* FOOTER SECTION */
 
 .footer-background {
-    padding: 128px 118px;
+    padding: 128px 118px 40px 118px;
     border-radius: 180px;
     background-image: url("/img/footer-web-background.png");
     background-repeat: no-repeat;
@@ -823,6 +829,62 @@ letter-spacing: -0.9px;
     padding-bottom: 80px;
 }
 
+.footer-nav-active { 
+    padding-top:8px;
+    padding-bottom: 48px;
+    color: var(--osler-gray-white, #FFF);
+    /* Heading lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+}
+
+.footer-nav {
+    padding-bottom: 48px;
+    color:#939A95;
+    /* Heading lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+}
+
+.footer-end-p {
+    color: var(--osler-gray-white, #FFF);
+    text-align: center;
+
+    /* Label/sm */
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.footer-end-text-block {
+    padding-top:32px;
+}
+
+.footer-download-btn {
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: var(--healing-green-50, #84CC16);
+    color: var(--osler-gray-white, #FFF);
+    /* Text lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.36px;
+} 
 
 
 /*  Services Mobile adaptation PART 2  */
