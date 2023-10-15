@@ -50,6 +50,7 @@ header .logo-btn {
 .background-header {
     min-height:800px;
     background-image: url("/img/background.png");
+    background-repeat: no-repeat;
     background-size: 150%;
     background-position: left;
 }
@@ -287,7 +288,7 @@ letter-spacing: -0.12px;
 
 @media (max-width: 992px) {
 
-    .doctor-widget {
+    .mobile-display-none {
         display:none;
     }
 
@@ -694,6 +695,136 @@ letter-spacing: -0.9px;
 
 
 
+/* LATEST NEWS SECTION */
+
+.latest-news-section {
+    padding: 128px 142px;
+}
+
+.latest-news-h {
+    color: var(--osler-gray-80, #2F3C33);
+    /* Heading lg/ExtraBold */
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.44px;
+}
+
+.latest-news-card {
+    padding: 16px 16px 32px 16px;
+    border-radius: 48px;
+    background: var(--osler-gray-10, #F5F5F5);
+}
+
+.news-labels-section {
+    padding-top:32px;
+}
+
+.latest-news-label {
+    color: var(--osler-gray-60, #647067);
+    /* Label/sm */
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.news-article-h {
+    color: var(--osler-gray-80, #2F3C33);
+    text-align: center;
+
+    /* Text xl/ExtraBold */
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+
+.news-article-btn {
+    border-radius: 15px;
+    border: 1px solid var(--osler-gray-60, #647067);
+    padding: 10px 16px;
+}
+
+.news-article-btn-text {
+    color: var(--osler-gray-80, #2F3C33);
+    text-align: center;
+    /* Text md/Bold */
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+
+
+/* BOOK REMINDER SECTION */
+
+
+.book-reminder-section {
+    padding: 64px 118px;
+    border-radius: 180px;
+    background: var(--healing-green-20, #D9F99D);
+}
+
+.book-reminder-section-background {
+    background-image: url("/img/booking-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book-reminder-h {
+    padding-top:32px;
+    padding-bottom: 32px;
+    color: var(--osler-gray-80, #2F3C33);
+    /* Heading xl/ExtraBold */
+    font-family: Nunito;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; /* 113.333% */
+    letter-spacing: -1.8px;
+}
+
+
+
+/* FOOTER SECTION */
+
+.footer-background {
+    padding: 128px 118px;
+    border-radius: 180px;
+    background-image: url("/img/footer-web-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-p {
+    color: var(--osler-gray-20, #E3E4E3);
+    /* Paragraph/xl */
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.2px;
+}
+
+.footer-p-block {
+    padding-top:24px;
+    padding-bottom: 80px;
+}
+
+
+
 /*  Services Mobile adaptation PART 2  */
 @media (max-width: 992px) {
 
@@ -762,6 +893,20 @@ letter-spacing: -0.9px;
         background: var(--healing-green-50, #84CC16);
         padding: 128px 50px;
     }
+
+    .latest-news-section {
+        padding: 128px 30px;
+    }
+
+    .book-reminder-section-background {
+        height: 1250px;
+        background-image: url("/img/booking-mobile.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 100%;   
+    }
+
+   
 
 
     /* REVERSE COLUMN */
