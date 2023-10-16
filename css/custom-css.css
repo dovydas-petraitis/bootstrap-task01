@@ -392,6 +392,10 @@ letter-spacing: -0.12px;
         display:none;
     }
 
+    .news-btn-mobile-only {
+        display:none;
+    }
+
     .footer-social-icons-only-mobile {
         display:none;
     }
@@ -968,7 +972,14 @@ letter-spacing: -0.9px;
         background-position: 50% 100%;   
     }
 
-   
+    .footer-background {
+        padding: 100px 40px;
+        border-radius: 180px;
+        background-image: url("/img/footer-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
 
     /* REVERSE COLUMN */
